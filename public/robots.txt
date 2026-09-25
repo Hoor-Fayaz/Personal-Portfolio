@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hoorfayaz.com/sitemap.xml
