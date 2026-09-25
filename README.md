@@ -1,200 +1,155 @@
-# Hoor Fayaz - AI/ML Engineer Portfolio
+# Hoor Fayaz | AI/ML Engineer Portfolio
 
-A premium, highly visual, modern personal portfolio website for Hoor Fayaz, an AI/ML Engineer specializing in Computer Vision, Deep Learning, and LLM/RAG applications.
+<div align="center">
 
-## 🚀 Tech Stack
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=AI%2FML+Engineer;Computer+Vision;Deep+Learning;LLM+%26+RAG+Applications" alt="Typing SVG" />
 
-- **Framework**: Next.js 16.3.6 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS 4
-- **Animations**: Framer Motion
-- **Icons**: Lucide React + Custom SVG Icons
-- **Deployment**: Ready for Vercel
+  <p>
+    <img alt="Next.js" src="https://img.shields.io/badge/Next.js-16.3.6-000000?style=for-the-badge&logo=nextdotjs" />
+    <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript" />
+    <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind-4-06B6D4?style=for-the-badge&logo=tailwindcss" />
+    <img alt="Framer Motion" src="https://img.shields.io/badge/Framer-Motion-0055FF?style=for-the-badge&logo=framer" />
+  </p>
 
-## ✨ Features
+  <p>
+    <strong>Modern, premium portfolio website for an AI/ML Engineer focused on Computer Vision, Deep Learning, and LLM-powered product development.</strong>
+  </p>
 
-- **Premium Dark Theme**: Sophisticated near-black background with electric blue/violet accents
-- **Interactive Neural Network Visualization**: Canvas-based animated background in hero section
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
-- **Smooth Animations**: Framer Motion-powered micro-interactions and page transitions
-- **Project Showcase**: Featured projects with case study modals
-- **Technical Skills Visualization**: Interactive skill categories
-- **Experience Timeline**: Vertical timeline with alternating layout
-- **SEO Optimized**: Proper meta tags and Open Graph metadata
-- **Accessibility**: ARIA labels, keyboard navigation, and reduced-motion support
-- **Performance**: Optimized build with static generation
+</div>
 
-## 📁 Project Structure
+---
 
-```
+## About
+
+This portfolio showcases my work, engineering focus, and impact across AI and machine learning products. It is designed with a dark, futuristic aesthetic and a strong emphasis on clarity, performance, and technical storytelling.
+
+The site highlights:
+
+- AI/ML engineering expertise
+- Real-world projects and product thinking
+- Application of computer vision and deep learning
+- Experience with LLM/RAG-based systems
+- Clean, responsive presentation for recruiters and collaborators
+
+---
+
+## Highlights
+
+### ✨ What this portfolio includes
+
+- Premium dark-mode design with glassmorphism and vibrant gradients
+- Interactive animated hero section
+- Responsive layout for desktop, tablet, and mobile screens
+- Project showcase with case-study style presentation
+- Experience timeline and skill visualization
+- Clean, professional personal branding
+- Optimized for modern web performance and deployment
+
+---
+
+## Tech Stack
+
+| Category | Stack |
+| --- | --- |
+| Framework | Next.js 16 |
+| Language | TypeScript |
+| Styling | Tailwind CSS 4 |
+| Animation | Framer Motion |
+| Icons | Lucide React |
+| Deployment | Vercel-ready |
+
+---
+
+## Project Structure
+
+```bash
 src/
 ├── app/
-│   ├── globals.css          # Global styles and theme variables
-│   ├── layout.tsx           # Root layout with metadata
-│   └── page.tsx             # Main page component
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
 ├── components/
-│   ├── Navigation.tsx       # Sticky navigation with mobile menu
-│   ├── Hero.tsx             # Hero section with neural network visualization
-│   ├── SelectedWork.tsx     # Project showcase with case studies
-│   ├── Experience.tsx      # Experience timeline
-│   ├── About.tsx            # About section with ML lifecycle
-│   ├── Skills.tsx           # Technical skills visualization
-│   ├── Education.tsx        # Education and certifications
-│   ├── Achievements.tsx     # Awards and volunteer work
-│   ├── TechnicalStats.tsx   # Metrics strip
-│   ├── Contact.tsx          # Contact section
-│   ├── Footer.tsx           # Footer component
+│   ├── Navigation.tsx
+│   ├── Hero.tsx
+│   ├── SelectedWork.tsx
+│   ├── Experience.tsx
+│   ├── About.tsx
+│   ├── Skills.tsx
+│   ├── Education.tsx
+│   ├── Achievements.tsx
+│   ├── TechnicalStats.tsx
+│   ├── Contact.tsx
+│   ├── Footer.tsx
 │   └── icons/
-│       ├── GitHubIcon.tsx   # Custom GitHub icon
-│       └── LinkedInIcon.tsx # Custom LinkedIn icon
+│       ├── GitHubIcon.tsx
+│       └── LinkedInIcon.tsx
 ```
 
-## 🎨 Design System
+---
 
-### Colors
-- **Background**: `#070707` (Near-black)
-- **Primary Text**: `#F5F5F5` (Soft off-white)
-- **Secondary Text**: `#A1A1AA` (Muted gray)
-- **Borders**: `rgba(255,255,255,0.08)` (Subtle white)
-- **Accent Primary**: `#6366f1` (Electric blue)
-- **Accent Secondary**: `#8b5cf6` (Violet)
-- **Accent Gradient**: Linear gradient from `#6366f1` to `#8b5cf6`
-
-### Typography
-- **Font Family**: Geist Sans (system-ui fallback)
-- **Headings**: Large, bold, editorial style
-- **Body**: Clean, readable with proper line height
-- **Monospace**: Geist Mono for technical labels
-
-### Visual Elements
-- **Noise Texture**: Subtle SVG-based noise overlay
-- **Glass Effects**: Backdrop blur for navigation and modals
-- **Gradients**: Sophisticated accent gradients
-- **Borders**: Thin, subtle borders with hover states
-- **Animations**: Smooth, intentional micro-interactions
-
-## 🛠️ Development
+## Getting Started
 
 ### Prerequisites
-- Node.js 20+ 
+
+- Node.js 20+
 - npm or yarn
 
 ### Installation
 
 ```bash
-# Install dependencies
 npm install
-
-# Run development server
 npm run dev
+```
 
-# Build for production
+Then open:
+
+```bash
+http://localhost:3000
+```
+
+### Production Build
+
+```bash
 npm run build
-
-# Start production server
 npm start
+```
 
-# Run linter
+### Linting
+
+```bash
 npm run lint
 ```
 
-### Development Server
+---
 
-The development server runs on `http://localhost:3000` by default.
+## Deployment
 
-## 📦 Deployment
+This project is ready for deployment on Vercel.
 
-### Vercel (Recommended)
+### Vercel
 
-1. Push your code to GitHub
-2. Import the repository in Vercel
-3. Vercel will automatically detect Next.js and configure the build
-4. Deploy with one click
-
-### Manual Deployment
-
-```bash
-# Build the project
-npm run build
-
-# The output will be in the .next directory
-# Deploy the .next directory and public folder to your hosting provider
-```
-
-## 🌐 Environment Variables
-
-No environment variables are required for basic functionality. The following can be added for future enhancements:
-
-```env
-# Optional: Analytics
-NEXT_PUBLIC_GA_ID=your-google-analytics-id
-
-# Optional: Contact Form
-CONTACT_FORM_ENDPOINT=your-form-endpoint
-```
-
-## 📝 Content Management
-
-### Personal Information
-Update personal details in:
-- `src/app/layout.tsx` - Metadata and SEO
-- Component files - Contact information and social links
-
-### Projects
-Update project data in `src/components/SelectedWork.tsx`:
-- Add new projects to the `projects` array
-- Update GitHub URLs when available
-- Add demo URLs when available
-
-### Experience
-Update experience data in `src/components/Experience.tsx`:
-- Add new positions to the `experiences` array
-- Update company information and periods
-
-### Skills
-Update skills in `src/components/Skills.tsx`:
-- Modify the `skillCategories` array
-- Add new skill categories as needed
-
-## 🎯 Performance Optimization
-
-- **Static Generation**: Pages are pre-rendered at build time
-- **Image Optimization**: Next.js Image component (when images are added)
-- **Code Splitting**: Automatic code splitting by Next.js
-- **Tree Shaking**: Unused code is eliminated during build
-- **CSS Optimization**: Tailwind CSS purges unused styles
-
-## ♿ Accessibility
-
-- Semantic HTML structure
-- ARIA labels for interactive elements
-- Keyboard navigation support
-- Focus indicators
-- Reduced motion support via `prefers-reduced-motion`
-- Sufficient color contrast
-- Screen reader friendly
-
-## 🔒 Security
-
-- No sensitive data in client-side code
-- Secure external links with `rel="noopener noreferrer"`
-- Proper meta tags for security
-- CSP headers can be added via Next.js config
-
-## 📄 License
-
-This portfolio is built for personal use. All content and code are the property of Hoor Fayaz.
-
-## 🤝 Contributing
-
-This is a personal portfolio and is not currently accepting contributions. However, feel free to use this as a template for your own portfolio.
-
-## 📧 Contact
-
-- **Email**: hoorf2004@gmail.com
-- **LinkedIn**: https://linkedin.com/in/hoor-fayaz
-- **GitHub**: https://github.com/Hoor-Fayaz
+1. Push the repository to GitHub
+2. Import it into Vercel
+3. Deploy with the default Next.js settings
 
 ---
 
-Built with ❤️ using Next.js, TypeScript, and Tailwind CSS
+## Contact
+
+- Email: hoorf2004@gmail.com
+- LinkedIn: https://linkedin.com/in/hoor-fayaz
+- GitHub: https://github.com/Hoor-Fayaz
+
+---
+
+## License
+
+This portfolio is built for personal use and is intended to represent the work and brand of Hoor Fayaz.
+
+---
+
+<div align="center">
+  <p>
+    <strong>Built with passion using Next.js, TypeScript, and Tailwind CSS.</strong>
+  </p>
+</div>
